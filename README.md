@@ -1,0 +1,13 @@
+- python --version (harus versi python 3.11.5)
+- python -m venv venv (untuk membuat virtual environment python)
+- venv/Scripts/activate (lakukan activate)
+- pip install python-multipart==0.0.9
+- pip install imutils==0.5.4
+- pip install scipy==1.13.0
+- pip install cvzone==1.3.3
+- pip install tensorflow==2.15.0
+- pip install uvicorn
+- pip install fastapi
+- pip install python-dotenv==1.0.0
+- uvicorn app:app --reload (run model python)
+- jika muncul keterangan ["API sedang jalan"] berhasil
